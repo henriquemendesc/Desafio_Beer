@@ -1,0 +1,9 @@
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:background="#1C1C1C"
+    android:textColor="#D3D3D3"
+    android:fontFamily="sans-serif-condensed"
+    android:textSize="12dp"/>

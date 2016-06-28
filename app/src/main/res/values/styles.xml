@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#FFB300</item>
+        <item name="colorPrimaryDark">#FFC107</item>
+        <item name="colorAccent">#E8F5E9</item>
+        <item name="android:navigationBarColor">#FFC107</item>
+    </style>
+
+    <!-- Define estilo do edittext -->
+    <style name="StyledTilEditTextTheme">
+        // Cor padrão da linha
+        <item name="colorControlNormal">#e6ffffff</item>
+        // Cor linha e texto quando recebe foco
+        <item name="colorControlActivated">#faffffff</item>
+    </style>
+
+    <style name="StyledTilEditText">
+        <item name="android:theme">@style/StyledTilEditTextTheme</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:textColorHint">#c8ffffff</item> // Cor texto(hint) sem foco
+    </style>
+
+</resources>

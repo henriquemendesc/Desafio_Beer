@@ -57,11 +57,6 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
     private EditText edtLongitude;
     private EditText edtLatitude;
     private AutoCompleteTextView edtEndereco;
-    private EditText edtNumero;
-    private EditText edtUF;
-    private EditText edtPais;
-    private EditText edtBairro;
-    private EditText edtCidade;
     private Spinner spnBebidas;
 
     //==================Métodos sobrescritos da AppCompatActivity======================//
